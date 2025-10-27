@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UX NIGHTMARE!!!</title>
+    <!-- Absichtlich schlechtes Viewport-Handling für Mobile -->
+    <meta
+      name="viewport"
+      content="width=300, initial-scale=0.5, maximum-scale=0.5, user-scalable=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flashy-bg suspend-animations">
+    <div class="marquee-belt">
+      <marquee behavior="alternate" scrollamount="18"
+        ><span class="blink">WILLKOMMEN ZUR SCHLECHTESTEN WEBSITE ALLER ZEITEN!!!</span></marquee
+      >
+    </div>
+
+    <nav class="nav chaos" id="main-nav">
+      <ul>
+        <li><a href="#" id="nav-home">Home</a></li>
+        <li><a href="#" id="nav-about">Über</a></li>
+        <li><a href="#" id="nav-contact">Kontakt</a></li>
+        <li><a href="#" id="nav-surprise">Überraschung</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1 class="font1 rainbow-text">UX Nightmare Zone</h1>
+      <h2 class="font2 blink">Jetzt mit 0% Nutzbarkeit</h2>
+    </header>
+
+    <section class="content fixed-layout">
+      <p class="font3">
+        Dies ist ein Absatz, über den gleich ein Button schweben wird. Lesen ist schwer! Viel Spass
+        dabei, alles zu entziffern, während Dinge blinken, wackeln und dir in die Augen schreien.
+      </p>
+
+      <button id="buy-btn" class="bad-button font4">JETZT KAUFEN (NICHT)</button>
+
+      <div id="fake-loader" class="fake-loader">
+        <div class="bar"></div>
+        <span class="font5 tiny">Lädt... (für immer)</span>
+      </div>
+
+      <div class="cards">
+        <div class="card font6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Cras commodo
+          ligula eu neque luctus, nec bibendum mi porta.
+        </div>
+        <div class="card font7">
+          Phasellus non vulputate risus. Duis at dui id arcu pretium varius. Integer elementum justo
+          a justo posuere, non commodo odio bibendum.
+        </div>
+        <div class="card font8">
+          Ut convallis, elit vitae condimentum commodo, mauris arcu sodales turpis, non cursus
+          ligula lectus eu enim. Vivamus porta tempor nibh.
+        </div>
+      </div>
+
+      <button id="runaway" class="runaway bad-button font9">Klick mich!</button>
+
+      <div class="annoying-cta font10">
+        Melde dich JETZT an!!!
+        <input type="text" class="ugly-input" placeholder="Deine E-Mail hier... vielleicht" />
+      </div>
+
+      <div class="scrolling-text-wrapper">
+        <div class="scrolling-text font11">
+          SCROLL MICH! SCROLL MICH! SCROLL MICH! SCROLL MICH! SCROLL MICH!
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer chaos">
+      <p class="font12">© 1997–2099 UX Disaster Corp</p>
+    </footer>
+
+    <div id="popup-container"></div>
+
+    <div class="bottom-secret">
+      Wichtige Infos: Hier unten steht das einzig Nützliche. Support: support@example.invalid.
+      Bravo, du hast es gefunden.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
